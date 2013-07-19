@@ -70,7 +70,7 @@
 <p>配置Node.js开发环境，需要几个步骤：</p>
 <h2>1.安装Node.js环境</h2>
 <p>到<a href="http://nodejs.org/download">Node.js官方网站</a>下载最新的Node.js安装包。Node.js支持Windows、Mac OS X、Linux和SunOS几种平台开发。在Windows环境下开发，我们只需要下载Windows installer即可。下载的时候将Node.js源代码一起下载下来（WebStorm下配置Node.js要用到）。</p>
-<p><img src="http://www.baidupcs.com/thumbnail/17d6b8f50328eb23d38265161b1e64ba?fid=3926685329-250528-2433744184&amp;time=1373968707&amp;rt=pr&amp;sign=FDTAR-DCb740ccc5511e5e8fedcff06b081203-%2FO9od%2BTm7Dahj0ZAfzZMJL4Nii8%3D&amp;expires=8h&amp;size=c850_u580&amp;quality=100" alt=""></p>
+<p><img src="http://c.hiphotos.bdimg.com/album/s%3D550%3Bq%3D90%3Bc%3Dxiangce%2C100%2C100/sign=0af8ddb50df3d7ca08f63f73c224cf34/730e0cf3d7ca7bcb989c5da4bf096b63f724a852.jpg?referer=22a4653b64380cd7bf0996dd0830&amp;x=.jpg" alt=""></p>
 <p>Windows平台下的Node.js安装非常简单，只需要点击安装文件，选中安装目录（例如d:\nodejs），然后一路Next下去就可以了。</p>
 <p>安装完毕，打开Windows命令行控制台，输入node执行。如果没有错误提示，那就是说Node.js安装成功。</p>
 <h3>2.安装IDE</h3>
@@ -80,33 +80,33 @@
 <h2>3.配置WebStorm+Node.js环境</h2>
 <p>最新版的WebStorm内置了对Node.js的支持。我们只要稍加配置，就可以用WebStorm开发Node.js应用了。</p>
 <p>打开WebStorm，在菜单栏上点击&quot;File--&gt;Settings&quot;，打开WebStorm设置对话框。在对话框左边栏目中找到JavaScript节点，点击“Libraries“，查看是否安装了Node.js。如果安装有，就选中；否则就点击Download按钮下载。界面如下图所示。
-<img src="http://www.baidupcs.com/thumbnail/17897ecaddd4d1f09255903086b7c8b2?fid=3926685329-250528-2317884966&amp;time=1373968707&amp;rt=pr&amp;sign=FDTAR-DCb740ccc5511e5e8fedcff06b081203-coQIYV9FKYcTCn8kv5uf8c%2BK5hI%3D&amp;expires=8h&amp;size=c850_u580&amp;quality=100" alt=""></p>
+<img src="http://g.hiphotos.bdimg.com/album/s%3D550%3Bq%3D90%3Bc%3Dxiangce%2C100%2C100/sign=172719465366d0167a199e2da710a53a/b7fd5266d016092485e43890d50735fae7cd3473.jpg?referer=a47e16ba4b90f6035da7a8777412&amp;x=.jpg" alt=""></p>
 <p>注意：必须选中上图红色圆圈标注的选项，否则后面新建工程时候，Node.js源代码包含不到工程中。</p>
-<p>在左边栏目中点击Node.js节点，将Node.js解释器设置为node.js安装目录下的node.exe（例如：d:\nodejs\node.exe）。然后安装Node.js核心模块源代码（下载Node.js时候，已经下载了）。配置完成后，界面如下图所示。</p>
-<p><img src="http://www.baidupcs.com/thumbnail/77ea02f7829932d8b22ab0aabff99f76?fid=3926685329-250528-518981222&amp;time=1373968707&amp;rt=pr&amp;sign=FDTAR-DCb740ccc5511e5e8fedcff06b081203-yGAs67cFO%2FN9d101gvoh9A%2F5k%2BA%3D&amp;expires=8h&amp;size=c850_u580&amp;quality=100" alt=""></p>
+<p>在左边栏目中点击Node.js节点，将Node.js解释器设置为node.js安装目录下的node.exe（例如：d:\nodejs\node.exe）。然后安装Node.js核心模块源代码（下载Node.js时候，已经下载了）。配置完成后，界面如下图所示。
+<img src="http://e.hiphotos.bdimg.com/album/s%3D550%3Bq%3D90%3Bc%3Dxiangce%2C100%2C100/sign=7e5b7688c995d143de76e42643cbf33f/d833c895d143ad4bedefdc4b83025aafa50f0673.jpg?referer=128f246fb21c87018fa186d66212&amp;x=.jpg" alt=""></p>
 <p>至此，基础开发环境搭建完毕。以后我们还将添加Express、Mongodb等的支持，这个后面再说。</p>
 <h1>二、第一个Node.js程序</h1>
 <p>看了这里，相信很多人已经迫不及待要用WebStorm开始写代码了。</p>
 <p>还是老规矩，先从Hello World开始。</p>
 <p>1.在WebStorm中，新建一个空工程（Empty Project）类型的工程，工程名为Demo。
-<img src="http://www.baidupcs.com/thumbnail/35b01701939aba65848c9f74848e79bf?fid=3926685329-250528-322891696&amp;time=1373970504&amp;rt=pr&amp;sign=FDTAR-DCb740ccc5511e5e8fedcff06b081203-E4cnJ%2Fb2ODpSZ0N70GaAhUuLusA%3D&amp;expires=8h&amp;size=c850_u580&amp;quality=100" alt=""></p>
+<img src="http://b.hiphotos.bdimg.com/album/s%3D550%3Bq%3D90%3Bc%3Dxiangce%2C100%2C100/sign=2a9919cc3812b31bc36ccd2cb6234747/a8773912b31bb051a10d36a3377adab44aede014.jpg?referer=c89b105709fa513d08bd59ee400a&amp;x=.jpg" alt=""></p>
 <p>2.在项目栏目中，右键点击项目名称Demo，新建一个JavaScript文件Hello.js。在代码窗口中输入如下代码：</p>
 <pre><code><figure class="highlight"><pre>console<span class="preprocessor">.log</span>(<span class="string">"Hello, Node.js!"</span>)<span class="comment">;</span>
 </pre></figure></code></pre>
 <p>如下图所示：</p>
-<p><img src="http://www.baidupcs.com/thumbnail/be000f1fef475c29281e38b3a4d366a2?fid=3926685329-250528-1241206169&amp;time=1373970504&amp;rt=pr&amp;sign=FDTAR-DCb740ccc5511e5e8fedcff06b081203-pBPU8GK2m06Vr43HCyM1%2FNyYe%2FM%3D&amp;expires=8h&amp;size=c850_u580&amp;quality=100" alt=""></p>
-<p>3.配置编译环境</p>
+<p><img src="http://b.hiphotos.bdimg.com/album/s%3D550%3Bq%3D90%3Bc%3Dxiangce%2C100%2C100/sign=658c9e66a2cc7cd9fe2d34dc093a5002/2fdda3cc7cd98d10c8ca89ba203fb80e7bec901b.jpg?referer=44927ba848540923f37e574ed0f9&amp;x=.jpg" alt="">
+3.配置编译环境</p>
 <p>代码编写完毕，我们会发现WebStorm工具栏按钮上的执行按钮是disable的。要运行代码，我们还需要配置编译环境。</p>
 <p>点击运行按钮左边的向下三角箭头按钮，选“Edit Configuration&quot;，如下图所示。
-<img src="http://www.baidupcs.com/thumbnail/ec3fa1deb171c8ace5a9d09d877c8dc0?fid=3926685329-250528-2496266792&amp;time=1373971532&amp;rt=pr&amp;sign=FDTAR-DCb740ccc5511e5e8fedcff06b081203-%2FAPN2utu1HxefHENcbUaF%2FWYQj8%3D&amp;expires=8h&amp;size=c850_u580&amp;quality=100" alt=""></p>
-<p>在弹出的运行和调试配置对话框中，点击“+”按钮，添加一个新配置。在添加新配置下拉列表中选中“Node.js&quot;，如下图所示。</p>
-<p><img src="http://www.baidupcs.com/thumbnail/8abb851cd540a288bbd63a7cd6f0f89e?fid=3926685329-250528-3148196689&amp;time=1373971532&amp;rt=pr&amp;sign=FDTAR-DCb740ccc5511e5e8fedcff06b081203-lPI4TN65ZXM89LT00rBluX0NAN8%3D&amp;expires=8h&amp;size=c850_u580&amp;quality=100" alt=""></p>
-<p>点击”Path to Node App JS File“右边的按钮，找到要运行的Node APP JS文件Hello.js。点击OK按钮，完成设置。如下图所示。</p>
-<p><img src="http://www.baidupcs.com/thumbnail/294f67707228dd38054fbee21e1ffba2?fid=3926685329-250528-1811272684&amp;time=1373971532&amp;rt=pr&amp;sign=FDTAR-DCb740ccc5511e5e8fedcff06b081203-PRhatJZiOk5NnwJBZYbRye%2Bvm9U%3D&amp;expires=8h&amp;size=c850_u580&amp;quality=100" alt=""></p>
-<p>这时候我们可以看到运行按钮已经变为绿色，如下图所示。</p>
-<p><img src="http://www.baidupcs.com/thumbnail/804e16ad7d80788adf08aafd044e2508?fid=3926685329-250528-263650116&amp;time=1373971532&amp;rt=pr&amp;sign=FDTAR-DCb740ccc5511e5e8fedcff06b081203-ao6npWLRDjSJq5gut6FFY1xxjBg%3D&amp;expires=8h&amp;size=c850_u580&amp;quality=100" alt=""></p>
-<p>点击运行按钮，运行，控制台输出如下图所示。</p>
-<p><img src="http://www.baidupcs.com/thumbnail/64b0e9c8946fd9f28c304243d4d5327b?fid=3926685329-250528-50238706&amp;time=1373971532&amp;rt=pr&amp;sign=FDTAR-DCb740ccc5511e5e8fedcff06b081203-LNtmqzN9ictbtQL%2BL6M5%2FNNTfUg%3D&amp;expires=8h&amp;size=c850_u580&amp;quality=100" alt=""></p>
+<a href="http://d.hiphotos.bdimg.com/album/s%3D550%3Bq%3D90%3Bc%3Dxiangce%2C100%2C100/sign=19e614b44afbfbedd859367a48cb860b/a50f4bfbfbedab644006c84bf636afc378311ec0.jpg?referer=444198831e30e92496b3a8015adf&amp;x=.jpg">http://d.hiphotos.bdimg.com/album/s%3D550%3Bq%3D90%3Bc%3Dxiangce%2C100%2C100/sign=19e614b44afbfbedd859367a48cb860b/a50f4bfbfbedab644006c84bf636afc378311ec0.jpg?referer=444198831e30e92496b3a8015adf&amp;x=.jpg</a></p>
+<p>在弹出的运行和调试配置对话框中，点击“+”按钮，添加一个新配置。在添加新配置下拉列表中选中“Node.js&quot;，如下图所示。
+<img src="http://c.hiphotos.bdimg.com/album/s%3D550%3Bq%3D90%3Bc%3Dxiangce%2C100%2C100/sign=3572a09f43a7d933bba8e4769d70a02e/0e2442a7d933c895eb8202f0d01373f0830200b8.jpg?referer=e075e5562f738bd49d3686016057&amp;x=.jpg" alt=""></p>
+<p>点击”Path to Node App JS File“右边的按钮，找到要运行的Node APP JS文件Hello.js。点击OK按钮，完成设置。如下图所示。
+<img src="http://d.hiphotos.bdimg.com/album/s%3D550%3Bq%3D90%3Bc%3Dxiangce%2C100%2C100/sign=c8d6c2994e4a20a4351e3cc2a069e91f/6c224f4a20a4462382373fe99922720e0df3d7b8.jpg?referer=beea69e711385343d5d8b3111156&amp;x=.jpg" alt=""></p>
+<p>这时候我们可以看到运行按钮已经变为绿色，如下图所示。
+<img src="http://d.hiphotos.bdimg.com/album/s%3D550%3Bq%3D90%3Bc%3Dxiangce%2C100%2C100/sign=c8d6c2994e4a20a4351e3cc2a069e91f/6c224f4a20a4462382373fe99922720e0df3d7b8.jpg?referer=beea69e711385343d5d8b3111156&amp;x=.jpg" alt=""></p>
+<p>点击运行按钮，运行，控制台输出如下图所示。
+<img src="http://g.hiphotos.bdimg.com/album/s%3D550%3Bq%3D90%3Bc%3Dxiangce%2C100%2C100/sign=f99116839a504fc2a65fb000d5e6962c/b8389b504fc2d562538a4a66e61190ef77c66cbf.jpg?referer=ba3e2fb118d8bc3e9f1f32facc55&amp;x=.jpg" alt=""></p>
 <p>至此，Hello JS已经输出。第一个Node.js程序完成。</p>
 
       
