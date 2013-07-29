@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Web前端技术学习]]></subtitle>
   <link href="http://yoursite.com/atom.xml" rel="self"/>
   <link href="http://yoursite.com"/>
-  <updated>2013-07-29T01:25:28.407Z</updated>
+  <updated>2013-07-29T01:48:53.019Z</updated>
   <id>http://yoursite.com/</id>
   <author>
     <name><![CDATA[肖继潮]]></name>
@@ -16,13 +16,13 @@
     <link href="http://yoursite.com/2013/07/29/lms/"/>
     <id>http://yoursite.com/2013/07/29/lms/</id>
     <published>2013-07-29T01:14:34.000Z</published>
-    <updated>2013-07-29T01:24:03.000Z</updated>
+    <updated>2013-07-29T01:48:37.000Z</updated>
     <content type="html"><![CDATA[<p>LMS系统本来打算采用Java开发，基于Restful Web Services架构，后台采用Spring MVC、Hibernate/myBatis，前端采用ArgularJS，UI采用FlatUI for BootStrap。</p>
 <p>现在决定改用Node.JS开发。</p>
 <ol>
 <li><p>Node.js+Express实现Restful Web Services</p>
 </li>
-<li><p>MongoDB存储数据，Mongoose实现持久层</p>
+<li><p>MongoDB存储数据，ORM采用Mongoose</p>
 </li>
 <li><p>前端采用Angular.js</p>
 </li>
