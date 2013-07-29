@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Web前端技术学习]]></subtitle>
   <link href="http://yoursite.com/atom.xml" rel="self"/>
   <link href="http://yoursite.com"/>
-  <updated>2013-07-19T06:59:15.782Z</updated>
+  <updated>2013-07-29T01:25:28.407Z</updated>
   <id>http://yoursite.com/</id>
   <author>
     <name><![CDATA[肖继潮]]></name>
@@ -12,11 +12,51 @@
   </author>
   <generator uri="http://zespia.tw/hexo">Hexo</generator>
   <entry>
-    <title type="html"><![CDATA[用Node.js开发Web应用程序教程 1]]></title>
+    <title type="html"><![CDATA[尝试采用Node技术开发LMS系统]]></title>
+    <link href="http://yoursite.com/2013/07/29/lms/"/>
+    <id>http://yoursite.com/2013/07/29/lms/</id>
+    <published>2013-07-29T01:14:34.000Z</published>
+    <updated>2013-07-29T01:24:03.000Z</updated>
+    <content type="html"><![CDATA[<p>LMS系统本来打算采用Java开发，基于Restful Web Services架构，后台采用Spring MVC、Hibernate/myBatis，前端采用ArgularJS，UI采用FlatUI for BootStrap。</p>
+<p>现在决定改用Node.JS开发。</p>
+<ol>
+<li><p>Node.js+Express实现Restful Web Services</p>
+</li>
+<li><p>MongoDB存储数据，Mongoose实现持久层</p>
+</li>
+<li><p>前端采用Angular.js</p>
+</li>
+<li><p>UI采用FlatUI for BootStrap</p>
+</li>
+<li><p>模块加载采用RequireJS</p>
+</li>
+<li><p>采用Nginx做反向代理</p>
+</li>
+</ol>
+]]></content>
+  </entry>
+  <entry>
+    <title type="html"><![CDATA[用Node.js开发Web应用程序系列教程（2）]]></title>
+    <link href="http://yoursite.com/2013/07/19/nodejs2/"/>
+    <id>http://yoursite.com/2013/07/19/nodejs2/</id>
+    <published>2013-07-19T07:01:52.000Z</published>
+    <updated>2013-07-19T10:34:38.000Z</updated>
+    <content type="html"><![CDATA[<p>在用Node.js开发Web应用程序系列教程（1）中，我们已经安装、配置好Node.js开发环境，并测试编写了第一个Node.js程序。在本教程中，我们将</p>
+<h2>模块、包和NPM</h2>
+<p>一个大型的Node.js应用程序，通常是由多个模块组成的。模块是Node.js应用程序的基本单元。在Node.js中，文件和模块是一一对应的，也就是说，一个Node.js就是一个模块。文件可以是JavaScript代码，JSON文件或者编译过的C/C++扩展。</p>
+<p>Node.js的包是在模块基础上的进一步抽象，其概念与C的函数库、Java的类库类似。</p>
+<p>NPM（Node Package Manager，包管理器）是Node.js的包管理工具。</p>
+<pre><code><figure class="highlight"><pre><span class="title">npm</span> install
+</pre></figure></code></pre>
+]]></content>
+    <category scheme="http://yoursite.com/tags/nodejs/" term="node.js"/>
+  </entry>
+  <entry>
+    <title type="html"><![CDATA[用Node.js开发Web应用程序系列教程（1）]]></title>
     <link href="http://yoursite.com/2013/07/16/nodejs1/"/>
     <id>http://yoursite.com/2013/07/16/nodejs1/</id>
     <published>2013-07-16T11:02:13.000Z</published>
-    <updated>2013-07-19T06:58:59.000Z</updated>
+    <updated>2013-07-19T08:05:47.000Z</updated>
     <content type="html"><![CDATA[<p>本教程首先讲解如何搭建Node.js开发环境，然后演示如何用Node.js开发第一个小应用。</p>
 <h1>一、开发环境搭建</h1>
 <p>配置Node.js开发环境，需要几个步骤：</p>
